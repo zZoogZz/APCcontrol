@@ -1,14 +1,3 @@
-"""
-HOW TO USE:
-When opening ensure program is opened in Geany or Idle
-Once opened press fn+F5.
-Follow on screen instructions!
-
-IMPORTANT NOTICE:
-Disable LED CHASE when programming new scenes otherwise it will
-interfer with recording of midi commands.
-"""
-
 import mido
 import time
 
