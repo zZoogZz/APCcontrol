@@ -1,9 +1,9 @@
 import mido
 import time
 
-def ledgreen(channel):
+def on(channel,outport):
 	for i in channel:
 		outport.send(mido.Message('note_on', note=i, channel=0, velocity=1))
-def ledgreenblink(channel):
+def blink(channel,outport):
 	for i in channel:
 		outport.send(mido.Message('note_on', note=i, channel=0, velocity=2))
