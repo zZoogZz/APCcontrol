@@ -1,5 +1,9 @@
 import mido
 import time
+import functions.ledoff
+import functions.red
+import functions.yellow
+import functions.green
 
 outport = mido.open_output()
 
@@ -16,9 +20,7 @@ print("   To exit press ^+C")
 input("   Press Enter to begin")
 
 #Colour Presets
-def ledoff(channel):
-	for i in channel:
-		outport.send(mido.Message('note_on', note=i, channel=0, velocity=0))
+'''
 def ledgreen(channel):
 	for i in channel:
 		outport.send(mido.Message('note_on', note=i, channel=0, velocity=1))
@@ -37,7 +39,7 @@ def ledredblink(channel):
 def ledyellowblink(channel):
 	for i in channel:
 		outport.send(mido.Message('note_on', note=i, channel=0, velocity=6))
-
+'''
 #Panel Defining
 '''
 ledgreen([56,48,40,32,24])
