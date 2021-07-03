@@ -1,10 +1,14 @@
 # APCcontrol
 A Midi-based button colour controller for the APC Mini created specifically for use with lighting control.
 
+**Dependancies:**
+- Mido _(pip install mido)_
+- rtmidi _(pip install python-rtmidi)_
 
 **Use:**
-- Navigate to your install location in terminal.
-- Use the command: "% python3 ApcControl.py" to run.
+- Connect APC Mini.
+- Navigate to your install location in terminal. _(Use cd command)._
+- Use the command: "% python ApcControl.py" to run. _(Change to "python3" on Mac)._
 - Follow on screen instructions. 
 
 **BEWARE**
