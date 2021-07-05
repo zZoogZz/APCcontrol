@@ -2,7 +2,7 @@ import mido
 
 def on(channel,outport):
 	for i in channel:
-		outport.send(mido.Message('note_on', note=i, channel=0, velocity=5))
+		outport.send(mido.Message('note_on', note=int(i), channel=0, velocity=5))
 def blink(channel,outport):
 	for i in channel:
-		outport.send(mido.Message('note_on', note=i, channel=0, velocity=6))
+		outport.send(mido.Message('note_on', note=int(i), channel=0, velocity=6))
