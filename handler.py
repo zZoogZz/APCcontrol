@@ -84,10 +84,8 @@ def ch(string):
 		#Command Builder
 		if command == "sleep":
 			exc = "time.sleep(1)"
-			print("WAITING...")
 		else:
 			exc = "functions.{colr}.{func}({addresses},outport)".format(colr=colour, func=command, addresses=str(addresses))
-			print(exc)
 		print("EXC: {}".format(exc))
 		return(exc)
 	elif coloursafe == False or commandsafe == False:
