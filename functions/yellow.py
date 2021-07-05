@@ -1,5 +1,4 @@
 import mido
-import time
 
 def on(channel,outport):
 	for i in channel:
