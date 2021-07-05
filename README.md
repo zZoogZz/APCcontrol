@@ -13,3 +13,10 @@ A Midi-based button colour controller for the APC Mini created specifically for 
 
 **BEWARE**
 Do **NOT** use animations while learning midi instructions in your lighting control software.
+
+
+**ADDRESSES**
+
+![image](https://user-images.githubusercontent.com/19891289/124409698-e6b21800-dd9c-11eb-8794-90b35da2d4ac.jpeg)
+
+
